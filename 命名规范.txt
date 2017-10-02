@@ -1,0 +1,66 @@
+1.定义类的 { 必须换行写
+class Person
+{
+}
+错误例子:
+class Person{
+}x
+class Person {
+}x
+2.类名必须首字母大写
+class Person
+错误例子：
+class personx
+3.函数的参数之间必须空格
+function test($a, $b, $c)
+错误例子
+function test($a,$b,$c)x
+4.比较操作符前后必须空格
+ $a == $b
+     错误例子
+     $a==$b, $a>$b, $a<$bx
+5.定义方法的 { 必须换行写
+public function test() 
+{
+}
+错误例子
+public function test(){
+}
+public function test() {
+}
+6.条件语句的 { 必须同行写
+if ($a == $b) {
+}
+错误例子
+if ($a == $b){
+}x
+if ($a == $b)
+{
+}x
+7. foreach for while循环语句 { 必须同行写
+8. 访问修饰限定符必须写
+9.常量名必须大写，单词之间用_分割
+const PERSON_NAME
+以下是错误示范部分：
+const personname
+const Personname
+const person_name
+const personName
+const PersonName
+const Person_Name
+
+10.变量名首单词的首字母必须小写
+$productPrice
+以下是错误示范：
+$productprice x
+$product_price x
+$Productprice x
+$Product_price x
+$ProductPrice x
+11. 方法名的命名规范和变量名的命名规范一样（重要）
+
+
+自动加载的强制的文件名和名字空间规范
+1. 类的文件名必须和类名相同(php代码规范之一，强制要求)
+2. 类必须有名字空间，名字空间必须和文件所在目录名相同。
+3.名字空间就是文件所在的目录，这个目录是相对于项目目录。
